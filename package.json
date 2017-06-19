@@ -1,0 +1,22 @@
+{
+  "name": "vuex-express-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node build/dev-server.js",
+    "build": "node build/build.js",
+    "server": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.7",
+    "serve-favicon": "^2.4.3"
+  }
+}
